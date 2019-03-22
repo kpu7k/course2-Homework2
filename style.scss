@@ -1,0 +1,29 @@
+
+#tag-Field {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    
+    flex-wrap: wrap;
+}
+.tagsInBlock{
+    margin:3px;
+    padding:5px;
+    background-color:blue; 
+    color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+
+}
+.tagsInBlock:hover{
+    cursor: pointer;
+}
+.inputElement{
+    font-size: 3em;
+    background-color: white;
+    
+   
+}
+.inputElement:focus{
+    background-color: white;
+}
